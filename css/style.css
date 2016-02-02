@@ -93,11 +93,11 @@ nav a {
 #about-body {
 	text-align: center;
 	color: #555;
-	background-color: #bbb;
+	/*background-color: #bbb;*/
 }
 
 #about-intro-container {
-	background-color: #eee;
+	background-color: #F3F5F8;
 }
 
 #about-intro {
@@ -124,9 +124,9 @@ nav a {
 .about-buttons {
 	display: inline-block;
 	width: 50%;
-	background-color: white;
+	background-color: #E9E9E9;
 	border-radius: 30px;
-	color: black;
+	/*color: ;*/
 	cursor: pointer;
 }
 
@@ -152,12 +152,23 @@ nav a {
 
 .about-details h2 {
 	font-size: 2.5em;
-	font-family: serif;
-	font-style: italic;
+	font-decoration: underline;
+}
+
+#about-audio-details h2 {
+	color: #50BFB6;
+}
+
+#about-dev-details h2 {
+	color: #FFB879;
+}
+
+#about-musician-details h2 {
+	color: #CC90FF;
 }
 
 .about-details p {
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 .about-close {
@@ -370,7 +381,8 @@ nav a {
 
 #connect-body {
 	height: 70%;
-	background-image: url(../assets/electro-voice.jpg);
+	background-color: #222222;
+	/*background-image: url(../assets/electro-voice.jpg);*/
 	text-align: center;
 	color: white;
 }
