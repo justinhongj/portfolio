@@ -1,0 +1,416 @@
+	/*//////////*/
+	/* DOCUMENT */
+	/*//////////*/
+
+html, body, section,
+.main {
+	height: 100%
+}
+
+.main section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+	height: 15%;
+	text-align: center;
+}
+
+.title {
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 3em;
+}
+
+.section-top {
+	height: 10%;
+	background: linear-gradient(to top, rgba(10, 10, 10, 0), rgba(10, 10, 10, 0.6));
+	z-index: 2;
+}
+
+
+	/*////////*/
+	/* HEADER */
+	/*////////*/
+
+
+#header {
+	background-image: url(../assets/mountain-fog2.jpg);
+}
+
+nav {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	background: linear-gradient(to top, rgba(10, 10, 10, 0), rgba(10, 10, 10, 0.6));
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 10%;
+	/*font-style: italic;*/
+	font-size: 1.3em;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+#name {
+	text-align: center;
+	margin-top: 12%;
+	font-size: 2em;
+	color: white;
+}
+
+#name span {
+	font-size: 2.9em;
+	font-weight: 600;
+}
+
+#name p {
+	/*font-family: serif;*/
+	/*font-style: italic;*/
+}
+
+
+	/*///////*/
+	/* ABOUT */
+	/*///////*/
+
+
+#about-body {
+	text-align: center;
+	color: #555;
+	background-color: #bbb;
+}
+
+#about-intro-container {
+	background-color: #eee;
+}
+
+#about-intro {
+	margin: 0 auto;
+	padding: 4%;
+	max-width: 55%;
+	font-style: italic;
+	font-size: 1.5em;
+	text-align: center;
+	color: #333;
+}
+
+#about-container {
+	width: 100%;
+	margin-top: 5%;
+}
+
+.about-topics {
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+}
+
+.about-buttons {
+	display: inline-block;
+	width: 50%;
+	background-color: white;
+	border-radius: 30px;
+	color: black;
+	cursor: pointer;
+}
+
+.about-details {
+	display: inline-block;
+	max-width: 40%;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+#about-quote {
+	font-size: 2.5em;
+	font-family: serif;
+	font-style: italic;
+}
+
+#about-author {
+	float: right;
+	font-size: 1.5em;
+	font-family: serif;
+	font-style: italic;
+}
+
+.about-details h2 {
+	font-size: 2.5em;
+	font-family: serif;
+	font-style: italic;
+}
+
+.about-details p {
+	font-size: 1em;
+}
+
+.about-close {
+	float: right;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+
+	/*////////*/
+	/* SKILLS */
+	/*////////*/
+
+
+#skills-body {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.skills-tiles {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+	width: 12.2%;
+	cursor: pointer;
+	background-color: #ffffff;
+}
+
+.skills-tiles-titles {
+	padding-top: 20%;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+}
+
+#html-cover {
+	background-color: #F16529;
+}
+
+#css-cover {
+	background-color: #29A8DF;
+}
+
+#js-cover {
+	background-color: #F0DB4F;
+}
+
+#jquery-cover {
+	background-color: #0769AD;
+}
+
+#ruby-cover {
+	background-color: #B01000;
+}
+
+#node-cover {
+	background-color: #8CC64C;
+}
+
+#angular-cover {
+	background-color: #E62A39;
+}
+
+#git-cover {
+	background-color: #5A3F7B;
+}
+
+.skills-tiles-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.skills-tiles-keys {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 20px;
+	width: 20px;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+}
+
+	/*////////*/
+	/*PROJECTS*/
+	/*////////*/
+
+
+#projects-body {
+	height: 100%;
+}
+
+#professional-work {
+	position: relative;
+	top: 10%;
+	height: 30%;
+	visibility: hidden;
+}
+
+/*#professional-work h3 {
+	font-size: 2em;
+	padding: 1% 7%;
+}
+
+#professional-work-body {
+	height: 100%;
+}
+
+#project-tmi {
+	background-color: #eeeeee;
+}*/
+
+#student-work {
+	height: 30%;
+}
+
+#student-work-title h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 1% 7%;
+}
+
+#student-work-body {
+	height: 100%;
+}
+
+#project-tobe {
+	background-color: #eeeeee;
+}
+
+.work-row {
+	height: 100%;
+	width: 100%;
+	padding-top: 0.5%;
+}
+
+.project-tile {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 33%;
+	cursor: pointer;
+}
+
+.project-tile img {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.project-tile .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	padding: 10% 10%;
+	color: #ffffff;
+	background-color: #555555;
+}
+
+.project-tile:hover .overlay { opacity: 0.9; }
+
+.project-tile .overtext {
+	transition: all 300ms ease-out;
+	transform: translateY(20px);
+}
+
+.project-tile .project-tile-title {
+	opacity: 0;
+	transition-delay: 0.1s;
+	transition-duration: 0.2s;
+}
+
+.project-tile:hover .project-tile-title,
+.project-tile:focus .project-tile-title {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.project-tile .project-tile-tagline {
+	opacity: 0;
+	transition-delay: 0.1s;
+	transition-duration: 0.2s;
+}
+
+.project-tile:hover .project-tile-tagline,
+.project-tile:focus .project-tile-tagline {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+	/*/////////*/
+	/* CONNECT */
+	/*/////////*/
+
+
+#connect-body {
+	height: 70%;
+	background-image: url(../assets/electro-voice.jpg);
+	text-align: center;
+	color: white;
+}
+
+.connect-tiles {
+	position: relative;
+	margin-top: 5%;
+	display: inline-block;
+	width: 33%;
+}
+
+#connect-left img {
+	height: 200px;
+	border-radius: 150px;
+}
+
+#connect-right a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#connect-right img {
+	height: 50px;
+	margin-top: 5%;
+}
+
+
+	/*///////////*/
+	/*BACK TO TOP*/
+	/*///////////*/
+
+
+.back-to-top {
+	position: fixed;
+	top: 90%;
+	left: 95%;
+	cursor: pointer;
+}
+
+.back-to-top img {
+	height: 45px;
+	width: 45px;
+}
