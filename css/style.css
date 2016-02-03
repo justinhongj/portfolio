@@ -152,6 +152,18 @@ nav a {
 	font-decoration: underline;
 }
 
+#about-audio {
+	color: #50BFB6;
+}
+
+#about-dev {
+	color: #FFB879;
+}
+
+#about-musician {
+	color: #CC90FF;
+}
+
 #about-audio-details h2 {
 	color: #50BFB6;
 }
@@ -374,8 +386,8 @@ nav a {
 
 #connect-body {
 	height: 70%;
-	background-color: #222222;
-	/*background-image: url(../assets/electro-voice.jpg);*/
+	/*background-color: #222222;*/
+	background-image: url(../assets/live-mixer.jpg);
 	text-align: center;
 	color: white;
 }
