@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 
 	$("#nav-skills").click(function() {
-		$("html,body").animate({scrollTop: $("#skills-body").offset().top}, 600, 'swing');
+		$("html,body").animate({scrollTop: $("#skills-title").offset().top}, 600, 'swing');
 	});
 
 	$("#nav-projects").click(function() {
