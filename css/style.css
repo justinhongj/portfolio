@@ -184,6 +184,10 @@ nav a {
 	/*////////*/
 
 
+#skills-section {
+	height: 70%;
+}
+
 #skills-body {
 	position: relative;
 	height: 100%;
@@ -191,52 +195,27 @@ nav a {
 	text-align: center;
 }
 
+.skills-row {
+	height: 40%;
+	margin: 2%;
+}
+
 .skills-tiles {
 	display: inline-block;
 	position: relative;
 	height: 100%;
-	width: 12.2%;
+	width: 15%;
+	margin: 0 1%;
 	cursor: pointer;
 	background-color: #ffffff;
+	border-radius: 25px;
 }
 
 .skills-tiles-titles {
 	padding-top: 20%;
 	text-align: center;
-	font-size: 2em;
-	color: #fff;
-}
-
-#html-cover {
-	background-color: #F16529;
-}
-
-#css-cover {
-	background-color: #29A8DF;
-}
-
-#js-cover {
-	background-color: #F0DB4F;
-}
-
-#jquery-cover {
-	background-color: #0769AD;
-}
-
-#ruby-cover {
-	background-color: #B01000;
-}
-
-#node-cover {
-	background-color: #8CC64C;
-}
-
-#angular-cover {
-	background-color: #E62A39;
-}
-
-#git-cover {
-	background-color: #5A3F7B;
+	font-size: 1em;
+	color: #f2f2f2;
 }
 
 .skills-tiles-cover {
@@ -245,17 +224,20 @@ nav a {
 	left: 0;
 	height: 100%;
 	width: 100%;
+	background-color: #404040;
+	border: 10px solid #f2f2f2;
+	border-radius: 35px;
 }
 
 .skills-tiles-keys {
 	position: absolute;
-	bottom: 5%;
+	bottom: 10%;
 	left: 50%;
 	transform: translateX(-50%);
 	height: 20px;
 	width: 20px;
-	color: #ffffff;
-	border: 2px solid #ffffff;
+	color: #f2f2f2;
+	border: 2px solid #f2f2f2;
 	border-radius: 5px;
 }
 
