@@ -180,6 +180,128 @@ nav a {
 
 
 	/*////////*/
+	/*PROJECTS*/
+	/*////////*/
+
+#projects-section {
+	height: 70%;
+}
+
+
+#projects-body {
+	height: 100%;
+	background-color: #242830;
+}
+
+#professional-work {
+	position: relative;
+	top: 10%;
+	height: 49%;
+	visibility: hidden;
+}
+
+/*#professional-work h3 {
+	font-size: 2em;
+	padding: 1% 7%;
+}
+
+#professional-work-body {
+	height: 100%;
+}
+
+#project-tmi {
+	background-color: #eeeeee;
+}*/
+
+#student-work {
+	height: 48%;
+}
+
+#student-work-title h3 {
+	text-align: center;
+	font-size: 2em;
+	padding: 1% 7%;
+}
+
+#student-work-body {
+	height: 100%;
+}
+
+#project-tobe {
+	background-color: #eeeeee;
+}
+
+.work-row {
+	height: 100%;
+	width: 100%;
+	padding-top: 0.5%;
+	text-align: center;
+}
+
+.project-tile {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	width: 33%;
+	cursor: pointer;
+	text-align: left;
+}
+
+.project-tile img {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.project-tile .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	height: 100%;
+	width: 100%;
+	transition: all 300ms ease-out;
+	opacity: 0;
+	padding: 10% 10%;
+	color: #ffffff;
+	background-color: #555555;
+}
+
+.project-tile:hover .overlay { opacity: 0.9; }
+
+.project-tile .overtext {
+	transition: all 300ms ease-out;
+	transform: translateY(20px);
+}
+
+.project-tile .project-tile-title {
+	opacity: 0;
+	transition-delay: 0.1s;
+	transition-duration: 0.2s;
+}
+
+.project-tile:hover .project-tile-title,
+.project-tile:focus .project-tile-title {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+.project-tile .project-tile-tagline {
+	opacity: 0;
+	transition-delay: 0.1s;
+	transition-duration: 0.2s;
+}
+
+.project-tile:hover .project-tile-tagline,
+.project-tile:focus .project-tile-tagline {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
+
+	/*////////*/
 	/* SKILLS */
 	/*////////*/
 
@@ -241,119 +363,6 @@ nav a {
 	border-radius: 5px;
 }
 
-	/*////////*/
-	/*PROJECTS*/
-	/*////////*/
-
-
-#projects-body {
-	height: 100%;
-}
-
-#professional-work {
-	position: relative;
-	top: 10%;
-	height: 30%;
-	visibility: hidden;
-}
-
-/*#professional-work h3 {
-	font-size: 2em;
-	padding: 1% 7%;
-}
-
-#professional-work-body {
-	height: 100%;
-}
-
-#project-tmi {
-	background-color: #eeeeee;
-}*/
-
-#student-work {
-	height: 30%;
-}
-
-#student-work-title h3 {
-	text-align: center;
-	font-size: 2em;
-	padding: 1% 7%;
-}
-
-#student-work-body {
-	height: 100%;
-}
-
-#project-tobe {
-	background-color: #eeeeee;
-}
-
-.work-row {
-	height: 100%;
-	width: 100%;
-	padding-top: 0.5%;
-}
-
-.project-tile {
-	display: inline-block;
-	position: relative;
-	overflow: hidden;
-	height: 100%;
-	width: 33%;
-	cursor: pointer;
-}
-
-.project-tile img {
-	position: absolute;
-	left: 0;
-	height: 100%;
-	width: 100%;
-}
-
-.project-tile .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 100;
-	height: 100%;
-	width: 100%;
-	transition: all 300ms ease-out;
-	opacity: 0;
-	padding: 10% 10%;
-	color: #ffffff;
-	background-color: #555555;
-}
-
-.project-tile:hover .overlay { opacity: 0.9; }
-
-.project-tile .overtext {
-	transition: all 300ms ease-out;
-	transform: translateY(20px);
-}
-
-.project-tile .project-tile-title {
-	opacity: 0;
-	transition-delay: 0.1s;
-	transition-duration: 0.2s;
-}
-
-.project-tile:hover .project-tile-title,
-.project-tile:focus .project-tile-title {
-	opacity: 1;
-	transform: translateY(0px);
-}
-
-.project-tile .project-tile-tagline {
-	opacity: 0;
-	transition-delay: 0.1s;
-	transition-duration: 0.2s;
-}
-
-.project-tile:hover .project-tile-tagline,
-.project-tile:focus .project-tile-tagline {
-	opacity: 1;
-	transform: translateY(0px);
-}
 
 
 	/*/////////*/
