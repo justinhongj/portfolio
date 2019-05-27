@@ -98,7 +98,7 @@ nav span {
 
 #about-intro-container {
 	height: 40%;
-	background-color: #F3F5F8;
+	background-color: #a3b1b4;
 }
 
 #about-intro {
@@ -126,7 +126,7 @@ nav span {
 .about-buttons {
 	display: inline-block;
 	width: 50%;
-	background-color: #E9E9E9;
+	background-color: #6d888b;
 	border-radius: 30px;
 	cursor: pointer;
 }
